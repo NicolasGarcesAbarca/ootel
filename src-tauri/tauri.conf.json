@@ -1,18 +1,17 @@
 {
   "build": {
-    "beforeDevCommand": "",
     "beforeBuildCommand": "",
-    "devPath": "../src",
-    "distDir": "../src",
-    "withGlobalTauri": true
+    "beforeDevCommand": "",
+    "devPath": "../ui",
+    "distDir": "../ui"
   },
   "package": {
     "productName": "ootel",
-    "version": "0.0.0"
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
-      "all": true
+      "all": false
     },
     "bundle": {
       "active": true,
@@ -58,7 +57,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "ootel",
+        "title": "oot",
         "width": 800
       }
     ]
